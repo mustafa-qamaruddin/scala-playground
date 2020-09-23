@@ -4,7 +4,7 @@ case class Var(n: String) extends Tree
 case class Const(v: Int) extends Tree
 
 
-object FrenchDate {
+object PatternMatching {
 type Environment = String => Int
 
 def eval(t: Tree, env: Environment): Int = t match {
